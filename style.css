@@ -91,3 +91,11 @@ header {
 .grid_item_open {
    background-color: white;
 }
+
+@media (max-width: 700px) {
+
+   .board,
+   header {
+      margin: 0.5rem;
+   }
+}
